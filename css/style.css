@@ -1,3 +1,4 @@
+/* Importando a fonte do google */
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
 
 * {
@@ -66,6 +67,7 @@ main {
     box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
 }
 
+/* Posicionamento ddos botões */
 .buttons {
     position: absolute;
     bottom: 10%;
@@ -76,6 +78,7 @@ main {
     gap: 20px;
 }
 
+/* Características dos botões */
 .button{
     width: 50%;
     padding: 4%;
@@ -88,6 +91,7 @@ main {
     box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
 }
 
+/* características dos botões quando ativados */
 .button:active {
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.9rem;
